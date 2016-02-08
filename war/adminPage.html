@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Admin Page</title>
+<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css"/>
+</head>
+<body>
+	<span>Google App Engine Surveys App with Bigtables</span>
+	<p>Before creating a new Tenant, ensure that the Tenant does not already exists. 
+	You can also <a href="thesurveysapp?action=tenantCreate"/>create a new tenant</a>.</p>
+	
+	<p/>
+	<form method="post" action="thesurveysapp">
+		<input type="hidden" name="action" value="tenantLookup"/>
+		<span class="heading">Search by Tenant Name:</span>
+		<p/>
+		<input type="text" name="tenantName" value="Adatum" style="width: 300px"/>
+		<input type="submit" value="Search">
+	</form>
+</body>
+</html>

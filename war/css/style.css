@@ -1,0 +1,41 @@
+body {
+          font-family:'Open Sans', sans-serif;
+    font-size:14px;    
+}
+
+#header {
+    background-color:#000;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+/*=======================================================*/
+div.img{
+	float: left;
+	width: 180px;
+	height: 90px;
+}
+
+#welcome{
+	font-size: 40pt;
+	font-famiilty: 'Calibri';
+	padding-left: 50px;
+}
+
+#enroll{
+	font-size: 14pt;
+	font-famiilty: 'Calibri';
+	color: white;	
+	/*background-color: #66ccff;*/
+}
+
+a:link
+{
+    color: #eca932;
+}
+
+#board{
+	background-color:#ECECEC;
+	padding: 20px 50px 20px 50px;
+}
